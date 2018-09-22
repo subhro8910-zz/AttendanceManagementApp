@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Enter Intern Id"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:hint="Enter Intern Name" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:hint="Enter Attendance"
+        android:textColorHint="@color/colorPrimary"
+        android:textStyle="bold"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_height="98dp">
+
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_marginLeft="10dp"
+            android:layout_width="140dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_height="90dp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:text="Delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_height="98dp">
+
+        <Button
+            android:id="@+id/modifybtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Modify"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewbtn"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="View"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.74" >
+
+        <Button
+            android:id="@+id/viewallbtn"
+            android:layout_marginLeft="25dp"
+            android:layout_width="140dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_height="90dp"
+            android:text="View all" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="140dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorPrimary"
+            android:text="About Us"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="0.74">
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="288dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorPrimary"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
